@@ -1,0 +1,52 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+mlenv
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs & Outputs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# ML Artifacts (generated)
+# =========================
+artifacts/raw/
+artifacts/unseen_test/
+artifacts/transformed/train.csv
+artifacts/transformed/test.csv
+prediction/models/archive/
